@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdowns on Personal Blog</title>
+    <link>https://canavandl.github.io/markdown/</link>
+    <description>Recent content in Markdowns on Personal Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Dec 2018 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://canavandl.github.io/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chartify: A quick review</title>
+      <link>https://canavandl.github.io/markdown/chartify_exploration/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://canavandl.github.io/markdown/chartify_exploration/</guid>
+      <description>Chartify is a new plotting library that was recently open-sourced by Spotify Labs. You can read their announcement article here. Chartify is intended to make it easy for Python users to create standard chart types, including line, bar and area charts, and is built on top of Bokeh. As a Bokeh core contributor, I quickly experimented with Chartify to see what it&amp;rsquo;s like.
+tl;dr I&amp;rsquo;m impressed. Chartify offers a clean API to ingest tidy data and generate a variety of visually pleasing charts, while also exposing the underlying Bokeh figure for further customization.</description>
+    </item>
+    
+  </channel>
+</rss>
