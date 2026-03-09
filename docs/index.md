@@ -1,28 +1,16 @@
 # Welcome
 
-Welcome to my personal site! This site is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
+Welcome to my personal site! This is where I share my thoughts, projects, and explorations.
 
-## Getting Started
+## Recent Posts
 
-This is the home page of your new MkDocs Material site. You can edit this file at `docs/index.md` to customize your homepage.
+Check out my [blog](blog/index.md) for the latest posts.
 
-## Features
+## About This Site
 
-MkDocs Material comes with many great features:
+This site is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), featuring:
 
-- **Beautiful Design** - A modern, responsive design that looks great on all devices
-- **Fast Search** - Built-in search functionality
+- **Blog with RSS Feed** - Subscribe to stay updated
 - **Dark Mode** - Toggle between light and dark themes
-- **Code Highlighting** - Syntax highlighting for code blocks
-- **Easy Navigation** - Intuitive navigation structure
-
-## Quick Start
-
-To add more content:
-
-1. Create new `.md` files in the `docs/` directory
-2. Update the `nav` section in `mkdocs.yml` to include them
-3. Run `mkdocs serve` to preview locally
-4. Deploy with `mkdocs gh-deploy`
-
-Check out the [About](about.md) page for more information!
+- **Fast Search** - Find content quickly
+- **Responsive Design** - Looks great on all devices

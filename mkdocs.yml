@@ -34,6 +34,7 @@ theme:
 
 plugins:
   - search
+  - blog
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -54,4 +55,4 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - About: about.md
+  - Blog: blog/index.md
