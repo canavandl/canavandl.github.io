@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://canavandl.github.io/sitemap.xml
