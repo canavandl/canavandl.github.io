@@ -18,3 +18,12 @@
 .md-nav--primary .md-nav__title {
   display: none;
 }
+
+/* Make header title clickable and show it's a link */
+.md-header__title {
+  cursor: pointer;
+}
+
+.md-header__title:hover {
+  opacity: 0.7;
+}
