@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if page.meta and page.meta.authors %}
+    <!-- This is a blog post -->
+    <div style="margin-bottom: 1.5rem;">
+      <a href="{{ config.site_url }}" style="color: var(--md-primary-fg-color); text-decoration: none; font-size: 0.9rem;">
+        ← Back to Writing
+      </a>
+    </div>
+  {% endif %}
+
+  {{ super() }}
+{% endblock %}

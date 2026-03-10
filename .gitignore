@@ -1,1 +1,5 @@
+# MkDocs
 site/
+
+# uv
+.venv/
