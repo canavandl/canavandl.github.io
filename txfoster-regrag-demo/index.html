@@ -8,29 +8,29 @@
       
       
       
-        <link rel="canonical" href="https://canavandl.github.io/">
+        <link rel="canonical" href="https://canavandl.github.io/txfoster-regrag-demo/">
       
       
-        <link rel="prev" href="about/">
+        <link rel="prev" href="../building-the-harness-bokeh-and-git-worktrees/">
       
       
       
         
       
       
-      <link rel="icon" href="assets/favicon.png">
+      <link rel="icon" href="../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
     
     
       
-        <title>Luke Canavan</title>
+        <title>TxFoster RegRAG Demo - Luke Canavan</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +49,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#writing" class="md-skip">
+        <a href="#txfoster-regrag-demo" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Luke Canavan" class="md-header__button md-logo" aria-label="Luke Canavan" data-md-component="logo">
+    <a href=".." title="Luke Canavan" class="md-header__button md-logo" aria-label="Luke Canavan" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Writing
+              TxFoster RegRAG Demo
             
           </span>
         </div>
@@ -167,7 +167,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -176,7 +178,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Luke Canavan" class="md-nav__button md-logo" aria-label="Luke Canavan" data-md-component="logo">
+    <a href=".." title="Luke Canavan" class="md-nav__button md-logo" aria-label="Luke Canavan" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -194,7 +196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/" class="md-nav__link">
+      <a href="../about/" class="md-nav__link">
         
   
   
@@ -222,19 +224,10 @@
   
   
     
-      
-    
   
   
     <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -250,7 +243,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -262,6 +254,8 @@
               </div>
             
             
+              
+                
               
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
@@ -282,94 +276,99 @@
             
           
           
-  <div class="md-content" data-md-component="content">
-    <div class="md-content__inner">
-      <header class="md-typeset">
-        <h1 id="writing">Writing</h1>
-      </header>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://github.com/canavandl.png" alt="Luke Canavan">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2026-03-24 00:00:00+00:00">March 24, 2026</time></li>
-        
-        
-        
-      </ul>
-      
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href=".." class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+                  <span class="md-ellipsis">
+                    Back to index
+                  </span>
+                </a>
+              </div>
+            </div>
+            
+              <div class="md-post__authors md-typeset">
+                
+                  <div class="md-profile md-post__profile">
+                    <span class="md-author md-author--long">
+                      <img src="https://github.com/canavandl.png" alt="Luke Canavan">
+                    </span>
+                    <span class="md-profile__description">
+                      <strong>
+                        
+                          Luke Canavan
+                        
+                      </strong>
+                      <br>
+                      
+                    </span>
+                  </div>
+                
+              </div>
+            
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    Metadata
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
+                        <time datetime="2026-03-24 00:00:00+00:00" class="md-ellipsis">March 24, 2026</time>
+                      </div>
+                    </li>
+                    
+                    
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+            
+          </nav>
+          
+        </div>
+      </div>
     </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="txfoster-regrag-demo"><a class="toclink" href="txfoster-regrag-demo/">TxFoster RegRAG Demo</a></h2>
+    <article class="md-content__inner md-typeset">
+      
+        
+  
+
+
+
+
+<h1 id="txfoster-regrag-demo">TxFoster RegRAG Demo</h1>
 <p><a href="https://github.com/canavandl/foster-rag">foster-rag</a> is a retrieval-augmented generation system built to make Texas foster care regulations more accessible to caseworkers and families. The demo below shows the system answering natural language questions grounded in the Texas Administrative Code.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LWHQJsB3ZJw" title="TxFoster RegRAG Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://github.com/canavandl.png" alt="Luke Canavan">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2026-03-10 00:00:00+00:00">March 10, 2026</time></li>
-        
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="building-the-harness-bokeh-and-git-worktrees"><a class="toclink" href="building-the-harness-bokeh-and-git-worktrees/">Building the Harness: Bokeh and git worktrees</a></h2>
-<p>Mitchell Hashimoto described "harness engineering" in his blog post <a href="https://mitchellh.com/writing/my-ai-adoption-journey#step-5-engineer-the-harness">My AI Adoption Journey</a> as "the idea that anytime you find an agent makes a mistake, you take the time to engineer a solution such that the agent never makes that mistake again."</p>
-<p>Worktrees are a git feature that enables concurrent, multi-agent development by creating multiple working directories from a single repository. Since Bokeh is a combined Python and TypeScript package however, isolating these worktrees requires additional setup.</p>
-<p>Specifically, Bokeh builds the BokehJS resources and statically links them to the environment's Bokeh version. Using a single Python environment for concurrent development means that it gets confusing which worktree's BokehJS resources are being used. I've repeatedly wasted time by running an example in a bugfix or feature worktree without realizing that I was loading BokehJS from another worktree that lacked my desired changes.</p>
-<p>As the conda package manager is deeply integrated into the Bokeh project, the solution is to have a unique conda environment for each worktree. In the spirit of "engineering the harness" this should be automatic. My current solution is a git <code>post-checkout</code> hook that detects worktree creation and creates an eponymous conda environment and symlinks the BokehJS static resources. </p>
-<p>Since there's no git hook to detect removing a git worktree, I have a <code>.claude/scripts/install-worktree-commands</code> script that's mentioned in CLAUDE.md. The consequence of an orphaned environment when Claude fails to remove a conda environment after deleting a worktree is some wasted disk space, which is a minimal concern.</p>
-<p>To tie things together, CLAUDE.md describes that Python commands such as <code>python</code> and <code>pytest</code> should be invoked as <code>conda run</code> commands that include the associated conda environment (i.e. <code>conda run -n bk-bugfix-14905 pytest tests/</code>)</p>
-<p>Key Takeaways:
-- Git hooks (and Claude hooks) are great. It would have been possible to describe the conda environment creation and configuration in my CLAUDE.md, but it's preferable to me to have this implemented deterministically as code.
-- Adding workflow descriptions to CLAUDE.md is the right way to document workflows. I've found that context compaction can cause things I've told Claude to remember (i.e. "always use <code>conda run</code> commands") to be forgotten.</p>
-<p>Note: Claude CLI now offers <code>WorktreeCreate</code> and <code>WorktreeRemove</code> hooks. I'm currently using Matthew Rocklin's <a href="https://github.com/mrocklin/claudechic">Claude Chic</a> as a Claude Code frontend which has its own <code>/worktree</code> skill, so the hooks aren't triggered for me.</p>
-    
-    
-  </div>
-</article>
-      
-      
-        
-          
 
 
 
-<nav class="md-pagination">
+
+
+
+
   
-</nav>
-        
+  
+
+
+
+
+  
+
+
+
       
-    </div>
+    </article>
   </div>
 
           
@@ -413,12 +412,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.top", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.top", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="javascripts/back-to-writing.js"></script>
+        <script src="../javascripts/back-to-writing.js"></script>
       
     
   </body>
